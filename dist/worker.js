@@ -1,4 +1,4 @@
-# testworkersaddEventListener('fetch', event => {
+testworkersaddEventListener('fetch', event => {
   event.respondWith(handleRequest(event.request))
 })
 
