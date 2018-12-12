@@ -1,3 +1,4 @@
 {
-  "dist/worker.js": "testgh"
+  "dist/worker.js": "dev",
+  "dist/prod.js": "prod"
 }
