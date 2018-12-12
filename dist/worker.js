@@ -1,5 +1,5 @@
-testworkersaddEventListener('fetch', event => {
-  event.respondWith(handleRequest(event.request))
+rkersaddEventListener('fetch', event => {
+  event(handleRequest(event.request))
 })
 
 /**
