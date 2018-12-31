@@ -1,4 +1,15 @@
 {
-  "dist/worker.js": "dev",
-  "dist/prod.js": "prod"
+  "scripts": [
+    {
+      "matchRef": "refs\/heads\/master",
+      "file":"dist/worker.js",
+      "script": "prod"
+    },
+    {
+      "matchRef": "refs\/heads\/(?!master).*",
+      "file":"dist/worker.js",
+      "script": "staging"
+    }
+  ]
+
 }

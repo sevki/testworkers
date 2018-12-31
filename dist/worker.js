@@ -1,4 +1,4 @@
-testworkersaddEventListener('fetch', event => {
+addEventListener('fetch', event => {
   event.respondWith(handleRequest(event.request))
 })
 
@@ -7,8 +7,5 @@ testworkersaddEventListener('fetch', event => {
  * @param {Request} request
  */
 async function handleRequest(request) {
-  console.log('Got request', request)
-  const response = await fetch(request)
-  console.log('Got response', response)
-  return response
+  return new Response("testing cloudflare workers github integration to prod")
 }
