@@ -1,14 +1,14 @@
 {
   "scripts": [
     {
-      "matchRef": "master",
+      "matchRef": "refs\/heads\/master",
       "file":"dist/worker.js",
-      "script": "testgh"
+      "script": "prod"
     },
     {
-      "matchRef": "^((?!(master)).)*$",
+      "matchRef": "refs\/heads\/(?!master).*",
       "file":"dist/worker.js",
-      "script": "testgh"
+      "script": "staging"
     }
   ]
 }
