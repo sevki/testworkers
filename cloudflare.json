@@ -1,3 +1,9 @@
 {
-  "dist/worker.js": "testgh"
+  "scripts": [
+    {
+      "matchRef": "master",
+      "file":"dist/worker.js",
+      "script": "testgh"
+    }
+  ]
 }
