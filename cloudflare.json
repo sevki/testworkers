@@ -1,5 +1,5 @@
 {
-  "scripts: [
+  "scripts": [
     {
       "file":"dist/worker.js",
       "script": "testgh"
