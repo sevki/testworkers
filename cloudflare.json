@@ -3,12 +3,12 @@
     {
       "matchRef": "refs\/heads\/master",
       "file":"dist/worker.js",
-      "script": "github-prod"
+      "script": "prod"
     },
     {
       "matchRef": "refs\/heads\/(?!master).*",
       "file":"dist/worker.js",
-      "script": "github-staging"
+      "script": "staging"
     }
   ]
 }
