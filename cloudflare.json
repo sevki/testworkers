@@ -1,3 +1,8 @@
 {
-  "dist/worker.js": "testgh"
+  "scripts: [
+    {
+      "file":"dist/worker.js",
+      "script": "testgh"
+    }
+  ]
 }
