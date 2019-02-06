@@ -7,5 +7,5 @@ addEventListener('fetch', event => {
  * @param {Request} request
  */
 async function handleRequest(request) {
-  return new Response("testing cloudflare workers github integration to prod test")
+  return new Response("Hello Tom")
 }
