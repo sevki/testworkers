@@ -7,8 +7,6 @@ addEventListener('fetch', event => {
  * @param {Request} request
  */
 async function handleRequest(request) {
-  .log('Got request', request)
-  const response = await fetch(request)
-  console.log('Got response', response)
-  return response
+
+  return new Response("Hello Victoria")
 }
