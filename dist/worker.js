@@ -7,5 +7,5 @@ addEventListener('fetch', event => {
  * @param {Request} request
  */
 async function handleRequest(request) {
-  return new Response("Hello Tom")
+  return new Response("Hello Victoria")
 }
